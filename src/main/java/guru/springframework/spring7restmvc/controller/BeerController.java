@@ -25,7 +25,7 @@ public class BeerController {
         beerService.updateById(beerId, beer);
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
-    
+
     @PostMapping
     public ResponseEntity handlePost(@RequestBody Beer beer) {
 
